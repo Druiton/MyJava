@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Vvodsklaviatyri {
     public static void main(String[] args){
         Scanner text = new Scanner(System.in);
-        System.out.println("Нажмите на любую клавишу, а затем на ENTER: ");
+        System.out.println("ГЌГ Г¦Г¬ГЁГІГҐ Г­Г  Г«ГѕГЎГіГѕ ГЄГ«Г ГўГЁГёГі, Г  Г§Г ГІГҐГ¬ Г­Г  ENTER: ");
         String vvod = text.nextLine();
-        System.out.println("Вы нажали на клавишу: " + vvod);
+        System.out.println("Г‚Г» Г­Г Г¦Г Г«ГЁ Г­Г  ГЄГ«Г ГўГЁГёГі: " + vvod);
 
     }
 }
